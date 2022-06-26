@@ -20,7 +20,7 @@ public class AppTest {
 	//Baixo peso muito grave
     @Test
     public void testBaixoPesoMuitoGraveAdultoMasculino20Anos() {
-    	assertEquals("Baixo peso muito grave", calc.calcularImc(1000.0,1.75,20,"masculino"));
+    	assertEquals("Baixo peso muito grave", calc.calcularImc(48.0,1.75,20,"masculino"));
     }
     @Test
     public void testPesoMuitoGraveAdultoMasculino65anos() {
